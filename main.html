@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+</head>
+<body>
+    <h1>Main</h1>
+    <p><strong>Author:</strong> Your Name</p>
+    <p>
+        Main class that runs the JavaFX application and sets up the initial scene.
+    </p>
+    <h2>Methods:</h2>
+    <dl>
+        <dt>main(String[] args): void</dt>
+        <dd>
+            The entry point of the application.
+            <br><strong>Param:</strong> args Command-line arguments (not used in this case)
+            <br><strong>Throws:</strong> IOException If there is an issue loading the FXML file
+        </dd>
+        <dt>start(Stage primaryStage): void</dt>
+        <dd>
+            This method is called after the JavaFX runtime has been initialized.
+            Sets up the initial scene with a VBox layout and adds an AnchorPane from an FXML file.
+            <br><strong>Param:</strong> primaryStage The primary stage for this application, onto which the application scene can be set
+            <br><strong>Throws:</strong> IOException If there is an issue loading the FXML file
+        </dd>
+    </dl>
+</body>
+</html>
